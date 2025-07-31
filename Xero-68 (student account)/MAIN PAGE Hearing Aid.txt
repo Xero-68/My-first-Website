@@ -1,0 +1,94 @@
+MAIN PAGE Hearing Aid
+MAIN FRONT PAGE
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Hearing Disability Help</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #004a99;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #036;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    footer {
+      background-color: #004a99;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hearing Help</h1>
+    <p>Empowering people with hearing loss</p>
+  </header>
+
+  <nav>
+    <a href="Home">Home</a>
+    <a href="">About Hearing Loss</a>
+    <a href="#">Hearing Aids</a>
+    <a href="#">Support & Tips</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Welcome to Hearing Help</h2>
+      <p>We provide information, support, and guidance for people living with hearing loss. Learn about hearing aids, communication strategies, and how to live fully with hearing challenges.</p>
+    </section>
+
+    <section>
+      <h3>Explore Our Topics</h3>
+      <ul>
+        <li><a href="#">Understanding Hearing Loss</a></li>
+        <li><a href="#">Choosing the Right Hearing Aid</a></li>
+        <li><a href="#">Tips for Families and Caregivers</a></li>
+        <li><a href="#">Community Resources</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hearing Help. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

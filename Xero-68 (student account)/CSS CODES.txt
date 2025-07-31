@@ -1,0 +1,229 @@
+
+CSS CODES
+---
+
+## 🎨 1. Change Background Color
+
+```css
+body {
+  background-color: lightblue;
+}
+```
+
+### How to use in HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, world!</h1>
+</body>
+</html>
+```
+
+---
+
+## ✍️ 2. Change Text Color and Font
+
+```css
+h1 {
+  color: darkblue;
+  font-family: Arial, sans-serif;
+}
+```
+
+### How to use in HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+      color: darkblue;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Page!</h1>
+</body>
+</html>
+```
+
+---
+
+## 📏 3. Center Your Text
+
+```css
+p {
+  text-align: center;
+}
+```
+
+### How to use in HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <p>This is a centered paragraph.</p>
+</body>
+</html>
+```
+
+---
+
+## 📦 4. Add a Border
+
+```css
+div {
+  border: 2px solid black;
+  padding: 10px;
+}
+```
+
+### How to use in HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div {
+      border: 2px solid black;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div>This box has a border!</div>
+</body>
+</html>
+```
+
+---
+
+## 🖼️ 5. Add a Background Image
+
+```css
+body {
+  background-image: url("https://www.w3schools.com/w3images/fjords.jpg");
+  background-size: cover;
+}
+```
+
+### How to use in HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url("https://www.w3schools.com/w3images/fjords.jpg");
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <h1>Look at my background!</h1>
+</body>
+</html>
+```
+
+---
+
+## 🧷 6. Style Buttons
+
+```css
+button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+```
+
+### How to use in HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button>Click Me!</button>
+</body>
+</html>
+```
+
+---
+
+## 🎨 7. Rainbow Text with Classes
+
+```css
+.red { color: red; }
+.orange { color: orange; }
+.yellow { color: yellow; }
+.green { color: green; }
+.blue { color: blue; }
+.purple { color: purple; }
+```
+
+### How to use in HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .red { color: red; }
+    .orange { color: orange; }
+    .yellow { color: yellow; }
+    .green { color: green; }
+    .blue { color: blue; }
+    .purple { color: purple; }
+  </style>
+</head>
+<body>
+  <h1>
+    <span class="red">R</span>
+    <span class="orange">A</span>
+    <span class="yellow">I</span>
+    <span class="green">N</span>
+    <span class="blue">B</span>
+    <span class="purple">O</span>
+    <span class="red">W</span>
+  </h1>
+</body>
+</html>
+```
+
+
